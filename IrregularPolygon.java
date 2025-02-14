@@ -29,7 +29,7 @@ public class IrregularPolygon {
     }
 
     public double area() {
-        if (myPolygon.size() < 3) return 0.0; // A polygon needs at least 3 points
+        if (myPolygon.size() < 2) return 0.0; // A polygon needs at least 3 points
     
         double sum1 = 0.0, sum2 = 0.0;
         int n = myPolygon.size();
